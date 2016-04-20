@@ -54,7 +54,7 @@ DB.init = function(callback) {
 				//setLocale(GLOBAL._config.defaultLocale);
 				//console.dir(getLocale());
 				callback();
-			});	
+			});
 		}
 	});
 	DB.accounts = DB.db.collection('accounts');

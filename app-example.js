@@ -5,9 +5,9 @@
  */
 
 global.settings = {
-	port:		8003 || process.env.PORT,
-	dbPort:		13951,
-	dbHost:		' mongodb://darshansapaliga009:darshan123@ds013951.mlab.com',
+	port:		8003,
+	dbPort:		27017,
+	dbHost:		'localhost',
 	dbName:		"admin-linux",
 	root_path:	__dirname
 }
